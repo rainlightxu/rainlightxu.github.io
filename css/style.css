@@ -1,0 +1,303 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: antiquewhite;
+}
+.topbar{
+    height: 40px;
+    width:100%;
+    background-color: black;
+
+}
+.topbar .container{
+    width:90%;
+    line-height: 40px;
+    margin:0 auto;
+}
+.topbar_nav{
+    float: left;
+    text-indent: -5px;
+}
+.topbar_cart,.topbar_info{
+    float: right;
+}
+.topbar .container a{
+    text-decoration: none;
+    font-size: 12px;
+    padding:0 5px;
+}
+a:link,a:visited{
+    color:cyan;
+}
+a:hover,a:active{
+    color: whitesmoke;
+}
+
+.topbar_cart a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    width: 120px;
+    background-color: gray;
+    text-align: center;
+
+}
+.topbar_cart a:hover{
+    color: darkred;
+    background-color: whitesmoke;
+}
+
+.header{
+    width:90%;
+    height: 100px;
+    margin:0 auto;
+    clear: both;
+    padding-top:20px;
+}
+.header_logo a img{
+    float: left;
+    height: 80px;
+    line-height: 80px;
+}
+.header_logo a:hover{
+
+}
+.header_nav{
+    float: left;
+    padding-left: 100px;
+    height: 80px;
+    line-height: 80px;
+}
+.header_search{
+    float: right;
+    height: 80px;
+    line-height: 80px;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+}
+li{
+    display: inline;
+}
+
+.header_nav ul li a{
+    text-decoration: none;
+    padding:0 5px;
+    color: #000;
+}
+.header_nav ul li a:hover{
+    color: red;
+}
+.header_search{
+    padding-top: 10px;
+}
+.header_search form{
+    position: relative;
+    display: block;
+}
+.header_search input{
+    position: absolute;
+    top:0;
+    right:0;
+    display: block;
+    height: 50px;
+    width: 225px;
+    line-height: 50px;
+    outline:0;
+    border:1px solid cadetblue;
+    padding-right: 50px;
+}
+
+.header_search input:hover{
+    border:1px solid red;
+}
+.header_search button{
+    position: absolute;
+    top:0;
+    right:0;
+    float: right;
+    display: block;
+    height: 54px;
+    width: 50px;
+    line-height: 50px;
+    outline:0;
+    border:1px solid cadetblue;
+    background: white;
+}
+.header_search button:hover{
+    background-color: red;
+    border:1px solid red;
+}
+.main{
+    width:90%;
+    height: 1000px;
+    background-color: rgba(255,129,119,0.31);
+    margin:0 auto;
+}
+.flashsale-head{
+    width:100%;
+    height: 58px;
+    /*border:1px solid black;*/
+}
+.flashsale-head p{
+    margin: 0;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 58px;
+    color: #333;
+    text-align: center;
+}
+.flashsale-nav{
+    width:100%;
+    height: 68px;
+    /*border:1px solid white;*/
+    background-color: #333333;
+}
+/*.flashsale-navfixed{*/
+    /*position: fixed;*/
+/*}*/
+.flashsale-nav ul{
+    margin: 0;
+    padding:0;
+    height: 68px;
+    list-style-type: none;
+}
+.flashsale-nav li{
+    float: left;
+    display: block;
+    color: whitesmoke;
+    width: 20%;
+    height: 68px;
+    line-height: 68px;
+    text-align: center;
+    cursor: pointer;
+}
+.flashsale-nav li:hover{
+    background-color: red;
+}
+.flashsale-nav .active{
+    background-color: red;
+}
+.flashsale-nav li em{
+    display: inline-block;
+    font-size: 18px;
+    font-style: normal;
+    line-height:1;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+.flashsale-nav li span{
+    display: inline-block;
+    text-align: left;
+    line-height:1;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.flashsale-nav li span em{
+    display: inline-block;
+    font-size :14px;
+    margin-left:0;
+    font-style: normal;
+    text-align: left;
+    line-height: 20px;
+}
+.flashsale-goods{
+    padding-top: 10px;
+}
+.flashsale-goods .active{
+    display: block;
+}
+.flashsale-goods ul{
+    display: none;
+    width:100%;
+    height: 400px;
+    margin: 0;
+    padding:0;
+    margin-right: -13px;
+    margin-top: 13px;
+    /*border:1px solid black;*/
+}
+
+.flashsale-goods li{
+    float: left;
+    width: 390px;
+    height: 190px;
+    background-color: whitesmoke;
+    /*border:1px solid black;*/
+    margin-right: 13px;
+    margin-bottom: 13px;
+}
+
+.flashsale-goods .bg{
+    float: left;
+    width:190px;
+    height: 190px;
+}
+.flashsale-goods .bg img{
+    height: 190px;
+    width: 190px;
+}
+.flashsale-goods .info{
+    margin-left: 200px;
+    width: 190px;
+    height:190px;
+    /*border: 1px solid black;*/
+    padding-top: 20px;
+}
+.flashsale-goods a{
+
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    height: 16px;
+    line-height: 16px;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.flashsale-goods p{
+    font-size: 12px;
+    line-height: 12px;
+    color: darkgrey;
+}
+.flashsale-goods .info .price{
+    font-size: 14px;
+    line-height:14px;
+    color: red;
+    margin-top: 10px;
+}
+.flashsale-goods .info .price del{
+    font-size: 12px;
+    color: darkgrey;
+}
+.flashsale-goods .info .btn {
+    display: inline-block;
+    width: 118px;
+    height: 28px;
+    line-height: 28px;
+    color: whitesmoke;
+    background-color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+.tips{
+    margin: 10px;
+    clear: both;
+}
+.tips p{
+    font-size:14px;
+    font-family:"Bodoni MT";
+    font-style: italic;
+    font-weight: 200;
+    color: gray;
+}
+
+.footer{
+    width:90%;
+    height: 520px;
+    background-color: gray;
+    margin:0 auto;
+}

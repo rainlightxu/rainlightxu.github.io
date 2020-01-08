@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小米闪购 - 小米商城</title>
+    <link rel="shortcut icon" href="imgs/logo.png">
+
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="css/iconfont.css" type="text/css" rel="stylesheet">
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <script>
+        var vm = new Vue({
+            el:'#app',
+            data:{
+                msg:'123'
+            }
+        });
+    </script>
+</head>
+<body>
+    <div id="app"></div>
+    <div class="topbar">
+        <div class="container">
+            <div class="topbar_nav">
+                <a href="#">小米商城</a><span>|</span>
+                <a href="#">MIUI</a><span>|</span>
+                <a href="#">IoT</a><span>|</span>
+                <a href="#">云服务</a><span>|</span>
+                <a href="#">金融</a><span>|</span>
+                <a href="#">有品</a><span>|</span>
+                <a href="#">小爱开放平台</a><span>|</span>
+                <a href="#">企业团购</a><span>|</span>
+                <a href="#">资质证照</a><span>|</span>
+                <a href="#">协议规则</a><span>|</span>
+                <a href="#">下载app</a><span>|</span>
+                <a href="#">Select Location</a><span>|</span>
+            </div>
+            <div class="topbar_cart">
+                <a href="#" class="iconfont">&#xe63b;购物车<span>（0）</span></a>
+            </div>
+            <div class="topbar_info">
+                <a href="#">登录</a><span>|</span>
+                <a href="#">注册</a><span>|</span>
+                <a href="#">消息通知</a><span>|</span>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="header_logo">
+            <a href="#">
+                <img id="header_logo" src="imgs/logo.png" onclick="changePhoto()">
+            </a>
+        </div>
+        <div class="header_nav">
+            <ul>
+                <li>
+                    <a href="#">小米手机</a>
+                </li>
+                <li>
+                    <a href="#">Redmi 红米</a>
+                </li>
+                <li>
+                    <a href="#">电视</a>
+                </li>
+                <li>
+                    <a href="#">笔记本</a>
+                </li>
+                <li>
+                    <a href="#">家电</a>
+                </li>
+                <li>
+                    <a href="#">智能硬件</a>
+                </li>
+                <li>
+                    <a href="#">路由器</a>
+                </li>
+                <li>
+                    <a href="#">服务</a>
+                </li>
+                <li>
+                    <a href="#">社区</a>
+                </li>
+            </ul>
+        </div>
+        <div class="header_search">
+            <form action="#" method="get">
+                <input type="text">
+                <button class="iconfont">&#xe63c;</button>
+            </form>
+
+        </div>
+    </div>
+    <div class="main">
+        <div class="flashsale">
+            <div class="flashsale-head"><p>小米闪购</p></div>
+            <div class="container">
+                <div class="flashsale-nav">
+                    <ul id="tabs">
+                        <li class="active"><em>18:00</em><span><em>即将开始<br>距开始&nbsp;01：25：15</em></span></li>
+                        <li><em>20:00</em><span>即将开始</span></li>
+                        <li><em>21:00</em><span>即将开始</span></li>
+                        <li><em>22:00</em><span>即将开始</span></li>
+                        <li><em>23:00</em><span>即将开始</span></li>
+                    </ul>
+                </div>
+                <div id="lists" class="flashsale-goods">
+                    <ul class="active">
+                        <li>
+                            <div class="bg">
+                                <img src="imgs/1.png">
+                            </div>
+                            <div class="info">
+                                <a href="#" class="name">小米移动电源2C 20000mAh 白色</a>
+                                <p>大容量 一个就够用</p>
+                                <p class="price">1元 <del>1299元</del></p>
+                                <a href="#" class="btn">登陆后抢购</a>
+                                <p>已有10000人设置提醒</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bg">
+                                <img src="imgs/1.png">
+                            </div>
+                            <div class="info">
+                                <a href="#" class="name">小米移动电源2C 20000mAh 白色</a>
+                                <p>大容量 一个就够用</p>
+                                <p class="price">1元 <del>1299元</del></p>
+                                <a href="#" class="btn">登陆后抢购</a>
+                                <p>已有10000人设置提醒</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bg">
+                                <img src="imgs/1.png">
+                            </div>
+                            <div class="info">
+                                <a href="#" class="name">小米移动电源2C 20000mAh 白色</a>
+                                <p>大容量 一个就够用</p>
+                                <p class="price">1元 <del>1299元</del></p>
+                                <a href="#" class="btn">登陆后抢购</a>
+                                <p>已有10000人设置提醒</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bg">
+                                <img src="imgs/1.png">
+                            </div>
+                            <div class="info">
+                                <a href="#" class="name">小米移动电源2C 20000mAh 白色</a>
+                                <p>大容量 一个就够用</p>
+                                <p class="price">1元 <del>1299元</del></p>
+                                <a href="#" class="btn">登陆后抢购</a>
+                                <p>已有10000人设置提醒</p>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <ul class="">
+                        <li>
+                            <div class="bg">
+                                <img src="imgs/2.png">
+                            </div>
+                            <div class="info">
+                                <a href="#" class="name">小米移动电源2C 20000mAh 白色</a>
+                                <p>大容量 一个就够用</p>
+                                <p class="price">1元 <del>1299元</del></p>
+                                <a href="#" class="btn">登陆后抢购</a>
+                                <p>已有10000人设置提醒</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bg">
+                                <img src="imgs/2.png">
+                            </div>
+                            <div class="info">
+                                <a href="#" class="name">小米移动电源2C 20000mAh 白色</a>
+                                <p>大容量 一个就够用</p>
+                                <p class="price">1元 <del>1299元</del></p>
+                                <a href="#" class="btn">登陆后抢购</a>
+                                <p>已有10000人设置提醒</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bg">
+                                <img src="imgs/2.png">
+                            </div>
+                            <div class="info">
+                                <a href="#" class="name">小米移动电源2C 20000mAh 白色</a>
+                                <p>大容量 一个就够用</p>
+                                <p class="price">1元 <del>1299元</del></p>
+                                <a href="#" class="btn">登陆后抢购</a>
+                                <p>已有10000人设置提醒</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bg">
+                                <img src="imgs/2.png">
+                            </div>
+                            <div class="info">
+                                <a href="#" class="name">小米移动电源2C 20000mAh 白色</a>
+                                <p>大容量 一个就够用</p>
+                                <p class="price">1元 <del>1299元</del></p>
+                                <a href="#" class="btn">登陆后抢购</a>
+                                <p>已有10000人设置提醒</p>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <ul class="">
+                        <li>
+                            <div class="bg">
+                                <img src="imgs/3.png">
+                            </div>
+                            <div class="info">
+                                <a href="#" class="name">小米移动电源2C 20000mAh 白色</a>
+                                <p>大容量 一个就够用</p>
+                                <p class="price">1元 <del>1299元</del></p>
+                                <a href="#" class="btn">登陆后抢购</a>
+                                <p>已有10000人设置提醒</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bg">
+                                <img src="imgs/3.png">
+                            </div>
+                            <div class="info">
+                                <a href="#" class="name">小米移动电源2C 20000mAh 白色</a>
+                                <p>大容量 一个就够用</p>
+                                <p class="price">1元 <del>1299元</del></p>
+                                <a href="#" class="btn">登陆后抢购</a>
+                                <p>已有10000人设置提醒</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bg">
+                                <img src="imgs/3.png">
+                            </div>
+                            <div class="info">
+                                <a href="#" class="name">小米移动电源2C 20000mAh 白色</a>
+                                <p>大容量 一个就够用</p>
+                                <p class="price">1元 <del>1299元</del></p>
+                                <a href="#" class="btn">登陆后抢购</a>
+                                <p>已有10000人设置提醒</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bg">
+                                <img src="imgs/3.png">
+                            </div>
+                            <div class="info">
+                                <a href="#" class="name">小米移动电源2C 20000mAh 白色</a>
+                                <p>大容量 一个就够用</p>
+                                <p class="price">1元 <del>1299元</del></p>
+                                <a href="#" class="btn">登陆后抢购</a>
+                                <p>已有10000人设置提醒</p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="tips">
+                    <p>
+                        从零到一的由架构师手把手搭建小米电商项目，针对有HTML+CSS+JavaScript基础的同学进行知识点的综合练习
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-service">
+            <ul>
+                <li>
+                    <a>预约维修服务</a>
+                </li>
+                <li>
+                    <a>预约维修服务</a>
+                </li>
+                <li>
+                    <a>预约维修服务</a>
+                </li>
+                <li>
+                    <a>预约维修服务</a>
+                </li>
+                <li>
+                    <a>预约维修服务</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-links"></div>
+        <div class="site-info"></div>
+    </div>
+</body>
+</html>
