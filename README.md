@@ -1,2 +1,1 @@
-# rainlightxu.github.io
-a simple index html
+## 小米闪购（静态首页）
